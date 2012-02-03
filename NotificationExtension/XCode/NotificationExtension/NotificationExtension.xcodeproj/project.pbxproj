@@ -7,39 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182F705814DBDCD7005D20CD /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F705714DBDCD7005D20CD /* FlashRuntimeExtensions.h */; };
 		185E78C314DBD9F300F264C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185E78C214DBD9F300F264C0 /* Foundation.framework */; };
 		185E78C914DBD9F300F264C0 /* NotificationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E78C814DBD9F300F264C0 /* NotificationExtension.m */; };
-		185E78D114DBD9F300F264C0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185E78D014DBD9F300F264C0 /* SenTestingKit.framework */; };
-		185E78D314DBD9F300F264C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185E78D214DBD9F300F264C0 /* UIKit.framework */; };
-		185E78D414DBD9F300F264C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185E78C214DBD9F300F264C0 /* Foundation.framework */; };
-		185E78D714DBD9F300F264C0 /* libNotificationExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 185E78BF14DBD9F300F264C0 /* libNotificationExtension.a */; };
-		185E78DD14DBD9F300F264C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185E78DB14DBD9F300F264C0 /* InfoPlist.strings */; };
-		185E78E014DBD9F300F264C0 /* NotificationExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E78DF14DBD9F300F264C0 /* NotificationExtensionTests.m */; };
+		18EA610014DBFCE2006A9278 /* NotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EA60FE14DBFCE2006A9278 /* NotificationManager.h */; };
+		18EA610114DBFCE2006A9278 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA60FF14DBFCE2006A9278 /* NotificationManager.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		185E78D514DBD9F300F264C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 185E78B614DBD9F300F264C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 185E78BE14DBD9F300F264C0;
-			remoteInfo = NotificationExtension;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		182F705714DBDCD7005D20CD /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = "../../../../../../../../Applications/Adobe Flash Builder 4.6/sdks/4.6.0/include/FlashRuntimeExtensions.h"; sourceTree = "<group>"; };
 		185E78BF14DBD9F300F264C0 /* libNotificationExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNotificationExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		185E78C214DBD9F300F264C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		185E78C614DBD9F300F264C0 /* NotificationExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotificationExtension-Prefix.pch"; sourceTree = "<group>"; };
 		185E78C714DBD9F300F264C0 /* NotificationExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationExtension.h; sourceTree = "<group>"; };
 		185E78C814DBD9F300F264C0 /* NotificationExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationExtension.m; sourceTree = "<group>"; };
-		185E78CF14DBD9F300F264C0 /* NotificationExtensionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationExtensionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		185E78D014DBD9F300F264C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		185E78D214DBD9F300F264C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		185E78DA14DBD9F300F264C0 /* NotificationExtensionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotificationExtensionTests-Info.plist"; sourceTree = "<group>"; };
 		185E78DC14DBD9F300F264C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		185E78DE14DBD9F300F264C0 /* NotificationExtensionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationExtensionTests.h; sourceTree = "<group>"; };
 		185E78DF14DBD9F300F264C0 /* NotificationExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationExtensionTests.m; sourceTree = "<group>"; };
+		18EA60FE14DBFCE2006A9278 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		18EA60FF14DBFCE2006A9278 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +35,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				185E78C314DBD9F300F264C0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		185E78CB14DBD9F300F264C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				185E78D114DBD9F300F264C0 /* SenTestingKit.framework in Frameworks */,
-				185E78D314DBD9F300F264C0 /* UIKit.framework in Frameworks */,
-				185E78D414DBD9F300F264C0 /* Foundation.framework in Frameworks */,
-				185E78D714DBD9F300F264C0 /* libNotificationExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				185E78BF14DBD9F300F264C0 /* libNotificationExtension.a */,
-				185E78CF14DBD9F300F264C0 /* NotificationExtensionTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				185E78C214DBD9F300F264C0 /* Foundation.framework */,
-				185E78D014DBD9F300F264C0 /* SenTestingKit.framework */,
-				185E78D214DBD9F300F264C0 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,9 +70,12 @@
 		185E78C414DBD9F300F264C0 /* NotificationExtension */ = {
 			isa = PBXGroup;
 			children = (
+				182F705714DBDCD7005D20CD /* FlashRuntimeExtensions.h */,
 				185E78C714DBD9F300F264C0 /* NotificationExtension.h */,
 				185E78C814DBD9F300F264C0 /* NotificationExtension.m */,
 				185E78C514DBD9F300F264C0 /* Supporting Files */,
+				18EA60FE14DBFCE2006A9278 /* NotificationManager.h */,
+				18EA60FF14DBFCE2006A9278 /* NotificationManager.m */,
 			);
 			path = NotificationExtension;
 			sourceTree = "<group>";
@@ -138,6 +114,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182F705814DBDCD7005D20CD /* FlashRuntimeExtensions.h in Headers */,
+				18EA610014DBFCE2006A9278 /* NotificationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,25 +139,6 @@
 			productReference = 185E78BF14DBD9F300F264C0 /* libNotificationExtension.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		185E78CE14DBD9F300F264C0 /* NotificationExtensionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 185E78E614DBD9F300F264C0 /* Build configuration list for PBXNativeTarget "NotificationExtensionTests" */;
-			buildPhases = (
-				185E78CA14DBD9F300F264C0 /* Sources */,
-				185E78CB14DBD9F300F264C0 /* Frameworks */,
-				185E78CC14DBD9F300F264C0 /* Resources */,
-				185E78CD14DBD9F300F264C0 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				185E78D614DBD9F300F264C0 /* PBXTargetDependency */,
-			);
-			name = NotificationExtensionTests;
-			productName = NotificationExtensionTests;
-			productReference = 185E78CF14DBD9F300F264C0 /* NotificationExtensionTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,37 +160,9 @@
 			projectRoot = "";
 			targets = (
 				185E78BE14DBD9F300F264C0 /* NotificationExtension */,
-				185E78CE14DBD9F300F264C0 /* NotificationExtensionTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		185E78CC14DBD9F300F264C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				185E78DD14DBD9F300F264C0 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		185E78CD14DBD9F300F264C0 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		185E78BB14DBD9F300F264C0 /* Sources */ = {
@@ -239,26 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				185E78C914DBD9F300F264C0 /* NotificationExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		185E78CA14DBD9F300F264C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				185E78E014DBD9F300F264C0 /* NotificationExtensionTests.m in Sources */,
+				18EA610114DBFCE2006A9278 /* NotificationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		185E78D614DBD9F300F264C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 185E78BE14DBD9F300F264C0 /* NotificationExtension */;
-			targetProxy = 185E78D514DBD9F300F264C0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		185E78DB14DBD9F300F264C0 /* InfoPlist.strings */ = {
@@ -281,6 +197,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -304,6 +221,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -317,6 +235,7 @@
 		185E78E414DBD9F300F264C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Volumes/Data/repo/FlexExtensions/NotificationExtension/build/debug;
 				DSTROOT = /tmp/NotificationExtension.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationExtension/NotificationExtension-Prefix.pch";
@@ -329,42 +248,13 @@
 		185E78E514DBD9F300F264C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Volumes/Data/repo/FlexExtensions/NotificationExtension/build/release;
 				DSTROOT = /tmp/NotificationExtension.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotificationExtension/NotificationExtension-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		185E78E714DBD9F300F264C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NotificationExtension/NotificationExtension-Prefix.pch";
-				INFOPLIST_FILE = "NotificationExtensionTests/NotificationExtensionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		185E78E814DBD9F300F264C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NotificationExtension/NotificationExtension-Prefix.pch";
-				INFOPLIST_FILE = "NotificationExtensionTests/NotificationExtensionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -387,14 +277,7 @@
 				185E78E514DBD9F300F264C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		185E78E614DBD9F300F264C0 /* Build configuration list for PBXNativeTarget "NotificationExtensionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				185E78E714DBD9F300F264C0 /* Debug */,
-				185E78E814DBD9F300F264C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

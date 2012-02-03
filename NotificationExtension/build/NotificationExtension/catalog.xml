@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/Notification/RemoteNotification/IRemoteNotification" mod="1328244208000" signatureChecksum="1572679573" >
+        <def id="com.Notification.RemoteNotification:IRemoteNotification" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/Notification/RemoteNotification/RemoteNotification" mod="1328247004000" signatureChecksum="3767106676" >
+        <def id="com.Notification.RemoteNotification:RemoteNotification" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="_8f89632500ee6d83e6df9bfea15bbcea7d2b7be5d34c5fd9f2a499f22dcc6ce3_flash_display_Sprite" mod="1328275850954" signatureChecksum="2881781181" >
+        <def id="_8f89632500ee6d83e6df9bfea15bbcea7d2b7be5d34c5fd9f2a499f22dcc6ce3_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="5c02f61ee248896aaf952f01b6f069b2ab26df185a088f3a27bd4bd0561c2c1b"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
